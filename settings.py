@@ -7,7 +7,7 @@ import math
 WIN_RES = glm.vec2(1600, 900)
 
 # Ray casting
-MAX_RAY_DIST = 6
+MAX_RAY_DIST = 20
 
 # chunk
 CHUNK_SIZE = 32
@@ -35,7 +35,7 @@ FAR = 2000.0
 PITCH_MAX = glm.radians(89)
 
 # player
-PLAYER_SPEED = 0.01
+PLAYER_SPEED = 0.05
 PLAYER_ROT_SPEED = 0.003
 PLAYER_POS = glm.vec3(CENTER_XZ, WORLD_H * CHUNK_SIZE, CENTER_XZ)
 MOUSE_SENSITIVITY = 0.002
